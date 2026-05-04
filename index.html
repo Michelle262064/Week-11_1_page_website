@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="UTF-8">
+      <title>Student of the Rings</title>
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="home-page">
+      <section class="hero">
+          <h1>Which Lord of the Rings character are you?</h1>
+          <p>What does your student life say about you?</p>
+      </section>
+
+      <div class="flexRow">
+          <div class="rowItem">
+              <form name="studentForm">
+                  <label>Enter your name</label>
+                  <input type="text" name="userName">
+                
+                  <label>Enter your email address</label>
+                  <input type="email" name="userEmail">
+
+                  <label>Select your struggle meal</label>
+                  <select name="struggleMeal">
+                      <option value="none">Select a struggle</option>
+                      <option value="beans on toast">Beans on Toast</option>
+                      <option value="two minute noodles">Two minute noodles</option>
+                      <option value="cold oats">Cold Oats</option>
+                      <option value="protein shake">Protein Shake</option>
+                      <option value="day old eggs">Day Old Eggs</option>
+                  </select>
+
+                  <div class="radioButtons">
+                      <label>Select your main goal</label>
+                      <input type="radio" name="userGoal" value="Academic Weapon"> Academic Weapon
+                      <input type="radio" name="userGoal" value="Average Sandwich"> Average Sandwich
+                      <input type="radio" name="userGoal" value="What was this about again?"> What was this about again?
+                  </div>
+
+                  <div class="checkboxes">
+                      <label>Words that describe you:</label>
+                      <input class="about" type="checkbox" value="Loyal"> Loyal
+                      <input class="about" type="checkbox" value="Smart"> Smart
+                      <input class="about" type="checkbox" value="Mysterious"> Mysterious
+                      <input class="about" type="checkbox" value="Sly"> Sly
+                  </div>
+
+                  <div class="counters">
+                     <label>How old are you?</label>
+                     <button type="button" ="countBut" id="counterMin" onclick="decCount()">-</button>
+                     <input type="number" value="0" id="inputVal">
+                     <button type="button" class="countBut" id="counterPlus" onclick="incCount()">+</button>
+                   </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="rowItem">
+            <div class="code">
+                <li>Name:</li>
+                <li>Email:</li>
+                <li>Struggle Meal:</li>
+                <li>Goal:</li>
+                <li>Description:</li>
+                <li>Age:</li>
+            </div>
+        </div>
+      <script src="JS/script.js"></script>
+  </body>
+</html>
