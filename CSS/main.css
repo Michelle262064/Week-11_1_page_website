@@ -1,0 +1,132 @@
+body {
+    background-color: lightslategray; 
+    color: aliceblue;           
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.hero {
+    height: 100%;
+    min-width: 100%;
+    background-size: 100%;
+    padding: 2%;
+    background-image: url(../assets/img-1536128208-2095-29249-p-A25F3E94-DBBC-66E3-8A49D0F6CEE09647-2544003__aWxvdmVrZWxseQo_FocalPointCropWzM1MiwxMDI0LDUwLDUwLDc1LCJqcGciLDY1LDIuNV0.jpg);
+    background-position: center;
+    text-align: right;
+    color: black;
+    display: block; 
+}
+
+.hero h {
+ font-size: 33px; 
+ font-family: 'Times New Roman', Times, serif;
+}
+
+.hero p {
+ font-size: 17px; 
+ font-family: 'Times New Roman', Times, serif, regular;
+ margin-bottom: 40px;
+}
+
+.flexrow {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.rowItem {
+ padding-top:3%;
+ box-sizing: border-box;
+ font-family: 'Times New Roman', Times, serif;
+ height: 370px;
+ display: flex;
+ gap: 40px;
+ justify-content: center;
+ min-width: 320px;
+ margin: 0 auto;
+ padding: 30px;
+ border-radius: 4px;
+ border: 1px solid lightcyan;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.studentForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 17pt;
+}
+
+input[type="text"], input[type="email"], select, input[type="number"] {
+    width: 30%;
+    padding: 2px;
+    margin-bottom: 5px;
+    background: whitesmoke;
+    color: black;
+    border-radius: 1px;
+    border-color: lightcyan;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radioButtons, .checkboxes {
+    line-height: 2;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.counters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counters button {
+    background: whitesmoke;
+    border: none;
+    color: black;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counters input {
+    font-size: medium;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.buttonS {
+    width: 20%;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid lightcyan;
+    background: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.buttonS:hover {
+    background: cadetblue;
+    border: 1px solid darkcyan;
+    color: whitesmoke;
+}
+
+.code {
+    list-style: none;
+}
+
+.code li {
+    text-decoration: none;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
